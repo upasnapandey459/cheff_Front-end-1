@@ -1,2 +1,2 @@
 cd /home/ec2-user
-rm -rf ./*
+sudo rm -rf install.sh

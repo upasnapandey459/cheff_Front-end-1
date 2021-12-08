@@ -7,7 +7,7 @@ files:
     
 hooks:
   BeforeInstall:
-    - location: beforeinstal.sh
+    - location: beforeinstall.sh
       timeout: 100 
       
    

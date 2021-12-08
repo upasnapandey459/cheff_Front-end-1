@@ -14,6 +14,8 @@ hooks:
   AfterInstall:
     - location: afterinstall.sh
       timeout: 100 
+  Install:
+      timeout:100
       
       
   

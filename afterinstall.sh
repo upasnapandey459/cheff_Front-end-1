@@ -1,7 +1,8 @@
 #!/bin/bash
-yum update -y
-cd /home/ec2-user/Test
-wget https://aws-codedeploy-us-east-1a.s3.amazonaws.com/latest/install
-chmod +x ./install
-./install auto
-service codedeploy-agent start
+sudo yum -y update
+sudo yum -y install ruby
+sudo yum -y install wget
+cd /home/ec2-user
+wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+sudo chmod +x ./install
+sudo ./install auto
